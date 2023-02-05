@@ -39,7 +39,7 @@ for (let hour = 9;
         const task = document.createElement("p");
         task.classList.add("task");
         task.textContent = savedEvent;      
-        event.appendChild(task);
+        event.prependChild(task);
     }
 
     // Create save button element
